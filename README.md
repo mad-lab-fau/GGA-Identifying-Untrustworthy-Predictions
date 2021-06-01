@@ -5,3 +5,6 @@ Paper: https://arxiv.org/abs/2102.12196
 Accepted at UAI 2021
 
 We propose a geometric gradient analysis (GGA) of the input gradients of neural networks to detect out-of-distribution data and adversarial attacks. GGA does not require retraining of a given model.
+
+
+<img src="./Images/CSM_Clean_Data_CIFAR10_Model.png">
