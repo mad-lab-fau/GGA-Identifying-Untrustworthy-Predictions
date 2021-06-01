@@ -17,3 +17,44 @@ Examples of CSMs for the "Standard" CIFAR10 model provided by RobustBench libary
   <img src="./Images/CSM_Noisy_Data_CIFAR10_Model.png", width=400>
 </p>
 
+## How to use GGA
+
+GGA can be installed with the following command:
+
+### Instalation
+```
+pip install git+https://github.com/mad-lab-fau/GGA-Identifying-Untrustworthy-Predictions
+```
+
+###
+
+To compute the cosine similarity map for a given input use the following code:
+
+``` python
+from gga.CSM import cosine_similarity_maps
+
+csm = cosine_similarity_maps(model, x)
+```
+
+An example is also given in main.py
+
+## Citation
+
+If you use our method in a publication please cite:
+```
+@article{schwinn2021identifying,
+  author    = {Leo Schwinn and
+               An Nguyen and
+               Ren{\'{e}} Raab and
+               Leon Bungert and
+               Daniel Tenbrinck and
+               Dario Zanca and
+               Martin Burger and
+               Bjoern Eskofier},
+  title     = {Identifying Untrustworthy Predictions in Neural Networks by Geometric
+               Gradient Analysis},
+  journal   = {CoRR},
+  volume    = {abs/2102.12196},
+  year      = {2021},
+}
+```
