@@ -4,7 +4,7 @@ Code relative to "Identifying Untrustworthy Predictions in Neural Networks by Ge
 Paper: https://arxiv.org/abs/2102.12196
 Accepted at UAI 2021
 
-We propose a geometric gradient analysis (GGA) of the input gradients of neural networks to detect out-of-distribution data and adversarial attacks. GGA does not require retraining of a given model. Here, we analyze and interpret the gradient of a neural network w.r.t. its input (e.g., saliency map). More precisely, for a given input sample we inspect the geometric relation among all possible saliency maps, calculated for each output class of the model. This is achieved by a pairwise calculation of the cosine similarity between saliency maps. The cosine similarites for a given input can be summarizes with cosine similiarty maps (CSMs)
+We propose a geometric gradient analysis (GGA) of the input gradients of neural networks to detect out-of-distribution data and adversarial attacks. GGA does not require retraining of a given model. Here, we analyze and interpret the gradient of a neural network w.r.t. its input (e.g., saliency map). More precisely, for a given input sample we inspect the geometric relation among all possible saliency maps, calculated for each output class of the model. This is achieved by a pairwise calculation of the cosine similarity between saliency maps. The cosine similarites for a given input can be summarizes with cosine similiarty maps (CSMs).
 
 The following image exemplifies how GGA can be used to differentiate different data types for a MNIST model by calculating the respective CSM for every input.
 
