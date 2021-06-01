@@ -12,7 +12,7 @@ The following image exemplifies how GGA can be used to differentiate different d
 
 Examples of CSMs for the "Standard" CIFAR10 model provided by RobustBench libary (https://github.com/RobustBench/robustbench) are given below:
 
-<p float="left">
+<p float="center">
   <img src="./Images/CSM_Clean_Data_CIFAR10_Model.png", width=400>
   <img src="./Images/CSM_Noisy_Data_CIFAR10_Model.png", width=400>
 </p>
