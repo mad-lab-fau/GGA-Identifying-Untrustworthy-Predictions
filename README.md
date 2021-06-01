@@ -26,6 +26,9 @@ GGA can be installed with the following command:
 pip install ggca-csm
 ```
 
+GGA only requires torch.
+The example in this repository requires torch and the robustbench libary (https://github.com/RobustBench/robustbench).
+
 ###
 
 To compute the cosine similarity map for a given input use the following code:
