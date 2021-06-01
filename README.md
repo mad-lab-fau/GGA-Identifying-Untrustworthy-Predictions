@@ -23,7 +23,7 @@ GGA can be installed with the following command:
 
 ### Instalation
 ```
-pip install git+https://github.com/mad-lab-fau/GGA-Identifying-Untrustworthy-Predictions
+pip install ggca.csm
 ```
 
 ###
