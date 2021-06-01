@@ -23,7 +23,7 @@ GGA can be installed with the following command:
 
 ### Instalation
 ```
-pip install ggca.csm
+pip install ggca-csm
 ```
 
 ###
