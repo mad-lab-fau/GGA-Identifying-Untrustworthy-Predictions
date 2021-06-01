@@ -13,4 +13,4 @@ The following image exemplifies how GGA can be used to differentiate different d
 Examples of the "Standard" CIFAR10 model provided by robust bench are given below:
 
 <img src="./Images/CSM_Clean_Data_CIFAR10_Model.png">
-<img src="./Images/CSM_Clean_Data_CIFAR10_Model.png">
+<img src="./Images/CSM_Noisy_Data_CIFAR10_Model.png">
