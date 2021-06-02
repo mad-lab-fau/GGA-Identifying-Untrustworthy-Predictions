@@ -39,7 +39,7 @@ from gga.CSM import cosine_similarity_maps
 csm = cosine_similarity_maps(model, x)
 ```
 
-An example is also given in main.py
+An example is also given in tests/main.py
 
 ## Citation
 
