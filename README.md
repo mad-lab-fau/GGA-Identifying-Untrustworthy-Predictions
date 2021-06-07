@@ -23,7 +23,7 @@ GGA can be installed with the following command:
 
 ### Instalation and Requirements
 ```
-pip install ggca-csm
+pip install gga-csm
 ```
 
 GGA only requires torch.
